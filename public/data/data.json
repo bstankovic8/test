@@ -1,0 +1,35 @@
+{
+  "boards": [
+    {
+      "name": "testabilna aplikacija",
+      "user": 2,
+      "id": 18837938650,
+      "starred": false,
+      "created": "2023-09-30"
+    }
+  ],
+  "tasks": [],
+  "users": [
+    {
+      "email": "maltezer@gmail.com",
+      "password": "$2a$10$3HKhFBs.3NH09G1LGiSrTeTEoj7AFbrD.Dqz9nWyNzsFYcTBKYnYq",
+      "id": 1
+    },
+    {
+      "email": "opaaa@gmail.com",
+      "password": "$2a$10$sarIg2DhBnp6FDRySX2DfudshokAtXSaJDZZUw6LrYh29XnuY9.4.",
+      "id": 2
+    },
+    {
+      "email": "njnja@gmail.com",
+      "password": "$2a$10$B.I2/ETFYIHeCZu1E.sHmOc0vuFFekWX7dDQo7iInBzyeGHgONbmK",
+      "id": 3
+    },
+    {
+      "email": "nja@gmail.com",
+      "password": "$2a$10$LSD6VTFpGlkAUJZlS2isN.ywLQ7mD3XLtavOUJ2KbNnGkKhVkpRc2",
+      "id": 4
+    }
+  ],
+  "lists": []
+}
