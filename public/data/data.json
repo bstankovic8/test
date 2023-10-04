@@ -29,6 +29,11 @@
       "email": "nja@gmail.com",
       "password": "$2a$10$LSD6VTFpGlkAUJZlS2isN.ywLQ7mD3XLtavOUJ2KbNnGkKhVkpRc2",
       "id": 4
+    },
+    {
+      "email": "example@example.com",
+      "password": "$2a$10$pqKOnTOEbQgwduC.nXEkjO0EeK/OvqPCpn6M1GpQbpRAbT2r0o.2O",
+      "id": 5
     }
   ],
   "lists": []
