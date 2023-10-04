@@ -9,6 +9,6 @@ describe('create', () => {
     cy.get('[data-cy="login-password"]').click().type('takoe');
     cy.get('[data-cy="login"]').click();
     cy.contains('User is logged in').should('be.visible');
-    //ovo bi trebalo da se vidi pull
+    //ovo bi trebalo da se vidi pull noibranch
   })
 })
