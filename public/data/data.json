@@ -1,13 +1,5 @@
 {
-  "boards": [
-    {
-      "name": "testabilna aplikacija",
-      "user": 2,
-      "id": 18837938650,
-      "starred": false,
-      "created": "2023-09-30"
-    }
-  ],
+  "boards": [],
   "tasks": [],
   "users": [
     {
@@ -29,6 +21,11 @@
       "email": "nja@gmail.com",
       "password": "$2a$10$LSD6VTFpGlkAUJZlS2isN.ywLQ7mD3XLtavOUJ2KbNnGkKhVkpRc2",
       "id": 4
+    },
+    {
+      "email": "opetnovinalog@gmail.com.com",
+      "password": "$2a$10$WT0.sZHMLK24GpLF4zQgG.Ygoem6lYl/hGT5MaktayFLAC9SuaPri",
+      "id": 5
     }
   ],
   "lists": []

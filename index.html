@@ -164,7 +164,7 @@
         <div class="dropdown" data-cy="board-options" @click="boardDropdown = !boardDropdown">
           <svg class="options" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,7a2,2,0,1,0-2-2A2,2,0,0,0,12,7Zm0,10a2,2,0,1,0,2,2A2,2,0,0,0,12,17Zm0-7a2,2,0,1,0,2,2A2,2,0,0,0,12,10Z"/></svg>
           <div id="myDropdown" class="dropdown-content" v-show="boardDropdown">
-            <span class="delete" @click.self="deleteBoard(currentBoard)">Delete board</span>
+            <span class="delete" @click.self="deleteBoard(currentBoard)" data-cy="delete-board">Delete board</span>
             <span data-cy="copy-board-properties" @click.self="copyProperties(currentBoard)">Copy properties</span>
           </div>
         </div>
@@ -325,8 +325,8 @@
       <div class="Nav_user Nav_button" data-cy="logged-user" v-show="this.$root.loggedIn.active" @click="loginDropdown = !loginDropdown" v-cloak>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="#5aac44"/></svg>
         {{ this.$root.loggedIn.email }}
-        <div id="myDropdown" class="dropdown-content" :class="{ show: loginDropdown }">
-          <span @click="logout()">Log out</span>
+        <div id="myDropdown" class="dropdown-content" :class="{ show: loginDropdown }"  data-cy="Log out">
+          <span @click="logout()" data-cy="logout-button">Log out</span>
         </div>
       </div>
       <div
@@ -368,7 +368,7 @@
                   Log in</button>
               </div>
             </div>
-            <p class="LoginModule_logSignSwitch">Don’t have an account? <a @click="logSignSwitch">Sign up here</a></p>
+            <p class="LoginModule_logSignSwitch">Don’t have an account? <a @click="logSignSwitch" data-cy="sign-up-here">Sign up here</a></p>
         </div>
         <div v-show="signupCardActive">
           <h2 class="LoginModule_title">Sign up to create a free account</h2>
@@ -398,7 +398,7 @@
     <Navbar></Navbar>
     <Login></Login>
     <div id="errorMessage" v-show="errorMessage.show" v-cloak>{{ errorMessage.text }}</div>
-    <div id="loginMessage" v-show="loggedIn.active" v-cloak>User is logged in</div>
+    <div id="loginMessage" v-show="loggedIn.active" v-cloak>User is logged in </div>
     <div id="tools" v-show="tools" v-cloak>Reset application:
       <button @click="resetAll()">All</button>
       <button @click="resetBoards()">Boards</button>

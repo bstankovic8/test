@@ -1,15 +1,19 @@
+import createElements from "cypress/support/commands/createElements";
+
+
 describe('create', () => {
     it('home page', () => {
         cy.visit('http://localhost:3000/');
     })
 
     it('account', () => {
-        cy.get('[data-cy="login-menu"]').click();
-        cy.contains('Sign up here').click();
+        cy.get(createElements.loginMenu).click();
+        cy.get(createElements.signUpHere).click();
         //ovo treba da se napise lepse, citljiviji kod, ali ja sam za sada ovako
-        cy.get('[data-cy="signup-email"]').click().type('nja@gmail.com');
-        cy.get('[data-cy="signup-password"]').click().type('takoe');
-        cy.get('[data-cy="signup"]').click();  
+        //mail se menja rucno, na putu sam da koristim fejkere(trebalo bi da su fejkeri :D)
+        cy.get(createElements.signUpEmail).click().type('novinalog@gmail.com');
+        cy.get(createElements.signUpPassword).click().type('takoe');
+        cy.get(createElements.signUp).click();  
         //nema asertacije
     })
 })

@@ -1,28 +1,31 @@
+import loginElements from "cypress/support/commands/loginElements";
+import boardElements from "cypress/support/commands/boardElements";
+import deleteBoardElements from "cypress/support/commands/deleteBoardElements";
+
 describe('create', () => {
-    it('home page', () => {
+    beforeEach(() => {
         cy.visit('http://localhost:3000/');
-    })
-  
-    it('login', () => {
-      cy.get('[data-cy="login-menu"').click();
-      cy.get('[data-cy="login-email"]').click().type('opaaa@gmail.com');
-      cy.get('[data-cy="login-password"]').click().type('takoe');
-      cy.get('[data-cy="login"]').click();
-      cy.contains('User is logged in').should('be.visible');
-    })
+    });
 
-    it('board', () => {
-        cy.get('[data-cy="create-board"]').click();
-        cy.get('[data-cy="new-board-input"]').click().type('testabilna aplikacija');
-        cy.get('[data-cy="new-board-create"]').click();
-        //nema asertaciju
-    })
+    it('should login', () => {
+        cy.get(loginElements.loginMenu).click();
+        cy.get(loginElements.loginEmail).click().type('opaaa@gmail.com');
+        cy.get(loginElements.loginPassword).click().type('takoe');
+        cy.get(loginElements.loginButton).click();
+        cy.contains('User is logged in').should('be.visible');
+    });
 
-    it('dele', () => {
-        cy.get('[data-cy="board-options"]').click();
-        cy.contains('Delete board').click();
+    it('should create a board', () => {
+        cy.get(boardElements.createBoard).click();
+        cy.get(boardElements.newBoard).click().type('testabilna aplikacija');
+        cy.get(boardElements.createNew).click();
+        
+    });
+
+    it('should delete a board', () => {
+        cy.get(deleteBoardElements.board).click();
+        cy.get(deleteBoardElements.boardOption).click();
+        cy.get(deleteBoardElements.deleteBoard).click();
         cy.contains('Create a board...').should('be.visible');
-    })
-
-    
-})
+    });
+});
