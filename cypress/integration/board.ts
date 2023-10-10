@@ -1,5 +1,5 @@
-import loginElements from "cypress/support/commands/loginElements";
-import boardElements from "cypress/support/commands/boardElements";
+import loginElements from "cypress/support/elements/loginElements";
+import boardElements from "cypress/support/elements/boardElements";
 
 describe('create', () => {
     it('home page', () => {

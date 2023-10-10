@@ -1,6 +1,6 @@
-import loginElements from "cypress/support/commands/loginElements";
-import boardElements from "cypress/support/commands/boardElements";
-import deleteBoardElements from "cypress/support/commands/deleteBoardElements";
+import loginElements from "cypress/support/elements/loginElements";
+import boardElements from "cypress/support/elements/boardElements";
+import deleteBoardElements from "cypress/support/elements/deleteBoardElements";
 
 describe('create', () => {
     beforeEach(() => {

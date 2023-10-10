@@ -1,4 +1,4 @@
-import createElements from "cypress/support/commands/createElements";
+import createElements from "cypress/support/elements/createElements";
 
 
 describe('create', () => {
