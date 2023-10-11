@@ -13,4 +13,4 @@ export default class Auth {
     }
 }
 
-//Ovo treba da naucis
+//Ovo treba 
