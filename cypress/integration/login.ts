@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 import loginElements from "cypress/support/elements/loginElements";
-=======
-import loginElements from "cypress/support/commands/loginElements";
->>>>>>> 43f1ece997f1027417ca08c724f5e454d062868c
-
 
 describe('create', () => {
   it('home page', () => {

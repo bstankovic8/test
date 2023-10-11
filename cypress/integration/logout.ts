@@ -18,11 +18,8 @@ describe('create', () => {
 
     it('logout', () => {
       cy.get(logoutElements.logoutMenu).click();
-<<<<<<< HEAD
       cy.get(logoutElements.logoutB).click({force: true});
-=======
       cy.get(logoutElements.logoutB).click();
->>>>>>> 43f1ece997f1027417ca08c724f5e454d062868c
       cy.contains('Log in').should('be.visible');
     })
   })
