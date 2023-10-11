@@ -325,13 +325,8 @@
       <div class="Nav_user Nav_button" data-cy="logged-user" v-show="this.$root.loggedIn.active" @click="loginDropdown = !loginDropdown" v-cloak>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="#5aac44"/></svg>
         {{ this.$root.loggedIn.email }}
-<<<<<<< HEAD
-        <div id="myDropdown" class="dropdown-content" :class="{ show: loginDropdown }"  data-cy="Log out">
+        <div id="myDropdown" class="dropdown-content" :class="{ show: loginDropdown }">
           <span @click="logout()" data-cy="logout-button">Log out</span>
-=======
-        <div id="myDropdown" class="dropdown-content" :class="{ show: loginDropdown }" data-cy="logout-button">
-          <span @click="logout()">Log out</span>
->>>>>>> 43f1ece997f1027417ca08c724f5e454d062868c
         </div>
       </div>
       <div

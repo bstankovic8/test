@@ -20,6 +20,13 @@
       "id": 13627655184,
       "starred": false,
       "created": "2023-10-10"
+    },
+    {
+      "name": "testabilna aplikacija",
+      "user": 2,
+      "id": 51551164244,
+      "starred": false,
+      "created": "2023-10-11"
     }
   ],
   "tasks": [],
@@ -45,7 +52,6 @@
       "id": 4
     },
     {
-<<<<<<< HEAD
       "email": "opetnovinalog@gmail.com.com",
       "password": "$2a$10$WT0.sZHMLK24GpLF4zQgG.Ygoem6lYl/hGT5MaktayFLAC9SuaPri",
       "id": 5
@@ -54,11 +60,6 @@
       "email": "novinalog@gmail.com",
       "password": "$2a$10$Jj5b8P1EbGda8C4hcg86yuvQQMdu/Xz51xUMlHlFef4bbwZeFX2LW",
       "id": 6
-=======
-      "email": "example@example.com",
-      "password": "$2a$10$pqKOnTOEbQgwduC.nXEkjO0EeK/OvqPCpn6M1GpQbpRAbT2r0o.2O",
-      "id": 5
->>>>>>> 43f1ece997f1027417ca08c724f5e454d062868c
     }
   ],
   "lists": []

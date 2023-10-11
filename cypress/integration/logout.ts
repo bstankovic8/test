@@ -17,9 +17,9 @@ describe('create', () => {
     })
 
     it('logout', () => {
+      cy.wait(5000)
       cy.get(logoutElements.logoutMenu).click();
       cy.get(logoutElements.logoutB).click({force: true});
-      cy.get(logoutElements.logoutB).click();
       cy.contains('Log in').should('be.visible');
     })
   })
