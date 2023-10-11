@@ -13,7 +13,7 @@ describe('create', () => {
         //mail se menja rucno, na putu sam da koristim fejkere(trebalo bi da su fejkeri :D)
         cy.get(createElements.signUpEmail).click().type('novinalog@gmail.com');
         cy.get(createElements.signUpPassword).click().type('takoe');
-        cy.get(createElements.signUp).click();  
+        cy.get(createElements.signUp).click();    
         //nema asertacije
     })
 })
