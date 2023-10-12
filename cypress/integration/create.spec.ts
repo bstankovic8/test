@@ -1,5 +1,7 @@
 import CreateAccount from "cypress/support/classes/createAccount";
 
+
+
 const createAccount = new CreateAccount();
 
 describe('create', () => {
@@ -8,6 +10,7 @@ describe('create', () => {
     })
 
     it('account', () => {
+
             createAccount.create('Govinalog@gmail.com', 'takoe')
         //nema asertacije
     })
