@@ -11,10 +11,24 @@ export default class Auth {
         username: string,
         password: string
     ): void {
-        cy.get(loginElements.loginMenu).click();
-    cy.get(loginElements.loginEmail).click().type(username);
-    cy.get(loginElements.loginPassword).click().type(password);
-    cy.get(loginElements.loginButton).click();
+        cy
+            
+            .get(loginElements.loginMenu)
+            .click();
+        cy
+        
+            .get(loginElements.loginEmail)
+            .click()
+            .type(username);
+        cy
+        
+            .get(loginElements.loginPassword)
+            .click()
+            .type(password);
+        cy
+        
+            .get(loginElements.loginButton)
+            .click();
     }
 
     assertMessage(message: string) {

@@ -41,6 +41,11 @@
       "email": "Bovinalog@gmail.com",
       "password": "$2a$10$hfQWN6Vn48fkgJJ5qnwrMOU/duhDSFlkvoL4EhIu0dyfRj1c4U/2u",
       "id": 8
+    },
+    {
+      "email": "Govinalog@gmail.com",
+      "password": "$2a$10$X2oH.Oirh0ffvx5KQCycCeUwFvh8HRLe8MZEaJfL6PJUIKunPSyHW",
+      "id": 9
     }
   ],
   "lists": []

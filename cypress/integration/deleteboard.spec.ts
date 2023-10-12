@@ -1,10 +1,10 @@
 import Auth from "cypress/support/classes/auth";
-import Brisi from "cypress/support/classes/brisi";
+import DeleteBoard from "cypress/support/classes/deleteBoard";
 import Out from "cypress/support/classes/out";
 
 
 const auth = new Auth();
-const brisi = new Brisi();
+const deleteBoard = new DeleteBoard();
 const out = new Out();
 
 describe('create', () => {
@@ -18,7 +18,7 @@ describe('create', () => {
     })
 
     it('should delete board', () => {
-        brisi.delete();
+        deleteBoard.delete();
     })
    
     });
