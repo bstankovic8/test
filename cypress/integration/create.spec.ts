@@ -1,6 +1,6 @@
-import Create from "cypress/support/classes/create";
+import CreateAccount from "cypress/support/classes/create";
 
-const create = new Create();
+const createAccount = new CreateAccount();
 
 describe('create', () => {
     beforeEach(() => {
@@ -8,7 +8,7 @@ describe('create', () => {
     })
 
     it('account', () => {
-            create.create('Bovinalog@gmail.com', 'takoe')
+            createAccount.create('Bovinalog@gmail.com', 'takoe')
         //nema asertacije
     })
 })
