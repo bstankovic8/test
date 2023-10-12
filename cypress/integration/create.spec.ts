@@ -1,5 +1,4 @@
 import Create from "cypress/support/classes/create";
-import createElements from "cypress/support/elements/createElements";
 
 const create = new Create();
 
