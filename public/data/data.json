@@ -1,27 +1,5 @@
 {
-  "boards": [
-    {
-      "name": "testabilna aplikacija",
-      "user": 2,
-      "id": 87895910420,
-      "starred": false,
-      "created": "2023-10-10"
-    },
-    {
-      "name": "testabilna aplikacija",
-      "user": 2,
-      "id": 11148185237,
-      "starred": false,
-      "created": "2023-10-10"
-    },
-    {
-      "name": "testabilna aplikacija",
-      "user": 2,
-      "id": 13627655184,
-      "starred": false,
-      "created": "2023-10-10"
-    }
-  ],
+  "boards": [],
   "tasks": [],
   "users": [
     {
@@ -45,7 +23,6 @@
       "id": 4
     },
     {
-<<<<<<< HEAD
       "email": "opetnovinalog@gmail.com.com",
       "password": "$2a$10$WT0.sZHMLK24GpLF4zQgG.Ygoem6lYl/hGT5MaktayFLAC9SuaPri",
       "id": 5
@@ -54,11 +31,21 @@
       "email": "novinalog@gmail.com",
       "password": "$2a$10$Jj5b8P1EbGda8C4hcg86yuvQQMdu/Xz51xUMlHlFef4bbwZeFX2LW",
       "id": 6
-=======
-      "email": "example@example.com",
-      "password": "$2a$10$pqKOnTOEbQgwduC.nXEkjO0EeK/OvqPCpn6M1GpQbpRAbT2r0o.2O",
-      "id": 5
->>>>>>> 43f1ece997f1027417ca08c724f5e454d062868c
+    },
+    {
+      "email": "ovinalog@gmail.com",
+      "password": "$2a$10$moQ4wTwNijWSbBBlX0P6Z./KkengFDTgaes3L58GDVBDc7iRpf.Ty",
+      "id": 7
+    },
+    {
+      "email": "Bovinalog@gmail.com",
+      "password": "$2a$10$hfQWN6Vn48fkgJJ5qnwrMOU/duhDSFlkvoL4EhIu0dyfRj1c4U/2u",
+      "id": 8
+    },
+    {
+      "email": "Govinalog@gmail.com",
+      "password": "$2a$10$X2oH.Oirh0ffvx5KQCycCeUwFvh8HRLe8MZEaJfL6PJUIKunPSyHW",
+      "id": 9
     }
   ],
   "lists": []
