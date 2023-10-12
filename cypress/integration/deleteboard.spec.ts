@@ -1,10 +1,10 @@
 import Auth from "cypress/support/classes/auth";
-import DeleteBoard from "cypress/support/classes/deleteBoard";
+import DeleteTable from "cypress/support/classes/deletetable";
 import Out from "cypress/support/classes/out";
 
 
 const auth = new Auth();
-const deleteBoard = new DeleteBoard();
+const deleteTable = new DeleteTable();
 const out = new Out();
 
 describe('create', () => {
@@ -18,7 +18,7 @@ describe('create', () => {
     })
 
     it('should delete board', () => {
-        deleteBoard.delete();
+        deleteTable.delete();
     })
    
     });
