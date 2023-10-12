@@ -1,5 +1,5 @@
 export default {
     logoutMenu: '[data-cy="logged-user"]',
-    logoutB: 'span',
+    logoutB: '[data-cy="logout-button"]',
 };
 

@@ -1,16 +1,15 @@
-import loginElements from "cypress/support/elements/loginElements";
+import Auth from "cypress/support/classes/auth";
+
+const auth = new Auth();
 
 describe('create', () => {
-  it('home page', () => {
+  beforeEach(() => {
       cy.visit('http://localhost:3000/');
   })
 
   it('login', () => {
-    cy.get(loginElements.loginMenu).click();
-    cy.get(loginElements.loginEmail).click().type('opaaa@gmail.com');
-    cy.get(loginElements.loginPassword).click().type('takoe');
-    cy.get(loginElements.loginButton).click();
-    cy.contains('User is logged in').should('be.visible');
-    //ovo bi trebalo da se vidi pull noibranch
+    auth.login('opaaa@gmail.com','takoe');
+  
+    auth.assertMessage('User is logged in')
   })
 })
