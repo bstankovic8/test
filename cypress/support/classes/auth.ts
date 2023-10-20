@@ -11,6 +11,8 @@ export default class Auth {
         username: string,
         password: string
     ): void {
+
+
         cy
             
             .get(loginElements.loginMenu)
@@ -30,7 +32,10 @@ export default class Auth {
             .get(loginElements.loginButton)
             .click();
     }
-
+    /**
+     * Asserts the notification message
+     * @param {string} message - Message to assert 
+     */
     assertMessage(message: string) {
         cy.contains(message).should('be.visible');
     }

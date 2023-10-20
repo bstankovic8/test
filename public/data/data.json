@@ -1,5 +1,20 @@
 {
-  "boards": [],
+  "boards": [
+    {
+      "name": "testabilna aplikacija",
+      "user": 2,
+      "id": 23645702987,
+      "starred": false,
+      "created": "2023-10-15"
+    },
+    {
+      "name": "testabilna aplikacija",
+      "user": 2,
+      "id": 88103406536,
+      "starred": false,
+      "created": "2023-10-20"
+    }
+  ],
   "tasks": [],
   "users": [
     {

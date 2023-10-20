@@ -16,7 +16,7 @@ export default class boardCreate  {
                 .type('testabilna aplikacija');
 
             cy
-            
+
                 .get(boardElements.createNew)
                 .click();
 }}
