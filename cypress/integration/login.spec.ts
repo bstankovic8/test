@@ -5,11 +5,10 @@ const auth = new Auth();
 describe('create', () => {
   beforeEach(() => {
       cy.visit('http://localhost:3000/');
+    auth.login('opaaa@gmail.com','takoe');
   })
 
   it('login', () => {
-    auth.login('opaaa@gmail.com','takoe');
-  
     auth.assertMessage('User is logged in')
   })
 })
