@@ -1,23 +1,27 @@
 import logoutElements from "../elements/logoutElements";
 
-export default class Out {
+export default class out {
 
     logout(
-      
-    ): void {
-        cy
-        
-            .get(logoutElements.logoutMenu)
-            .click();
 
-        cy
-        
-            .get(logoutElements.logoutButton)
-            .click({force: true});
+    ):void {
 
-        cy
-            
-            .contains('Log in')
-            .should('be.visible');
+    cy
+
+        .get(logoutElements.logoutMenu)
+        .click();
+
+    cy
+
+        .get(logoutElements.logoutButton)
+        .click();
+    }
+
+    /**
+     * @param {string} message
+     */
+
+    assertMessage(message: string) {
+        cy.contains(message).should('be.visible');
     }
 }

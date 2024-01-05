@@ -3,16 +3,16 @@
     {
       "name": "testabilna aplikacija",
       "user": 2,
-      "id": 23645702987,
+      "id": 55320568297,
       "starred": false,
-      "created": "2023-10-15"
+      "created": "2023-12-08"
     },
     {
       "name": "testabilna aplikacija",
       "user": 2,
-      "id": 88103406536,
+      "id": 22383269798,
       "starred": false,
-      "created": "2023-10-20"
+      "created": "2023-12-08"
     }
   ],
   "tasks": [],
@@ -61,6 +61,21 @@
       "email": "Govinalog@gmail.com",
       "password": "$2a$10$X2oH.Oirh0ffvx5KQCycCeUwFvh8HRLe8MZEaJfL6PJUIKunPSyHW",
       "id": 9
+    },
+    {
+      "email": "Povinalog@gmail.com",
+      "password": "$2a$10$4JnmeOvVekF6B7tXxIQ20O2f4W0WdDwvITgIgsDqpsw3pVqZX6geq",
+      "id": 10
+    },
+    {
+      "email": "Ajdenalog@gmail.com",
+      "password": "$2a$10$jRu.DGK0k4xLaIWDiPebUOCPbYLWvRCaXQTA8v70zQzxjSRCgghv2",
+      "id": 11
+    },
+    {
+      "email": "Denalog@gmail.com",
+      "password": "$2a$10$/tjwPWvKUji2HfnAu8NB3Oqmv8ZIvMcpNGOtlniv1mjmOwcj/rGpe",
+      "id": 12
     }
   ],
   "lists": []
