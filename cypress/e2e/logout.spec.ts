@@ -8,11 +8,11 @@ describe('I will logout', () => {
     beforeEach(() => {
         cy.visit('/');
         auth.login('opaaa@gmail.com','takoe');
-        cy.intercept('GET', '/api/logged-user/opaaa@gmail.com').as('logeduser');
+        cy.intercept('GET', '/api/users').as('alias');
     })
 
     it('logout', () => {
-        cy.wait('@logeduser');
+        cy.wait('@alias');
         out.logout();
         out.assertMessage('Log in');
     })
